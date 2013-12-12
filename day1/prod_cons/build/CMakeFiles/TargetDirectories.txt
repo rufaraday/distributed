@@ -1,0 +1,2 @@
+/home/developer/day1/prod_cons/build/CMakeFiles/libs.dir
+/home/developer/day1/prod_cons/build/CMakeFiles/prod_cons.dir

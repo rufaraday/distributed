@@ -1,0 +1,2 @@
+/home/developer/day1/hello_thread/build/CMakeFiles/hello_thread.dir
+/home/developer/day1/hello_thread/build/CMakeFiles/libs.dir

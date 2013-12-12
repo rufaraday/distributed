@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/prod_cons.dir/make.cpp.o  -o prod_cons -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lboost_filesystem 

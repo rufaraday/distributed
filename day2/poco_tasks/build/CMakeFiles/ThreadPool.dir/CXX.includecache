@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/developer/day2/threadpool/main.cpp
+Poco/Task.h
+-
+Poco/TaskManager.h
+-
+Poco/TaskNotification.h
+-
+Poco/Observer.h
+-
+iostream
+-
+

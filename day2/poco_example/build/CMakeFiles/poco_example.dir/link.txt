@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/poco_example.dir/main.cpp.o  -o poco_example -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lPocoFoundation -lPocoNet -lPocoUtil 

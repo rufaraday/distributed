@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/boost_asio.dir/asio.cpp.o  -o boost_asio -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lboost_filesystem 

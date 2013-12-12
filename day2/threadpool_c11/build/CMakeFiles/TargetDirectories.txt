@@ -1,0 +1,2 @@
+/home/developer/day2/threadpool_c11/build/CMakeFiles/libs.dir
+/home/developer/day2/threadpool_c11/build/CMakeFiles/threadpool_c11.dir
