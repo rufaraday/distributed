@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/developer/distributed/mapreduce/mapreduce.cpp
+iostream
+-
+string
+-
+boost/filesystem.hpp
+-
+boost/thread.hpp
+-
+thread_safe_queue.hpp
+/home/developer/distributed/mapreduce/thread_safe_queue.hpp
+
+/home/developer/distributed/mapreduce/thread_safe_queue.hpp
+queue
+-
+boost/thread.hpp
+-
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/developer/distributed/day3/receiver/chatroom.cpp
+SimpleAmqpClient/SimpleAmqpClient.h
+-
+iostream
+-
+string
+-
+thread
+-
+

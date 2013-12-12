@@ -1,0 +1,2 @@
+/home/developer/distributed/TSQ/build/CMakeFiles/TSQ.dir
+/home/developer/distributed/TSQ/build/CMakeFiles/libs.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/raytracing-server.dir/main.cpp.o  -o raytracing-server -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lzmq 

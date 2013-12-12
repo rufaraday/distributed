@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/sender.dir/chatroom.cpp.o  -o sender -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lSimpleAmqpClient 

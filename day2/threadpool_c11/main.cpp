@@ -24,6 +24,5 @@ int main()
     tpool.submit( []() {parametrized(42);});
 
     std::future<int> f = tpool.submit<int>([]() { return 42;});
-    // broken - package_task can die before future#get()
     std::cout << "Future result: " << f.get() << std::endl;
 }

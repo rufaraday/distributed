@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/developer/distributed/accumulate/main.cpp
+iostream
+-
+thread
+-
+vector
+-
+algorithm
+-
+chrono
+-
+boost/thread.hpp
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/direct.dir/main.cpp.o  -o direct -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lSimpleAmqpClient 

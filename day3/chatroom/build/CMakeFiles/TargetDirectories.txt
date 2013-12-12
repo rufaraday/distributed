@@ -1,0 +1,2 @@
+/home/developer/distributed/day3/chatroom/build/CMakeFiles/chatroom.dir
+/home/developer/distributed/day3/chatroom/build/CMakeFiles/libs.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/receiver.dir/chatroom.cpp.o  -o receiver -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lSimpleAmqpClient 
