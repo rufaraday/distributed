@@ -16,4 +16,8 @@
 *.user
 
 # Build folder
+<<<<<<< Updated upstream
 */build/
+=======
+build/
+>>>>>>> Stashed changes
