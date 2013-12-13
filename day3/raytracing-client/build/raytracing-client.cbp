@@ -86,6 +86,10 @@
       </Build>
       <Unit filename="/home/developer/distributed/day3/raytracing-client/main.cpp">
       </Unit>
+      <Unit filename="/home/developer/distributed/day3/raytracing-client/smallpt_lib.cpp">
+      </Unit>
+      <Unit filename="/home/developer/distributed/day3/raytracing-client/smallpt_lib.hpp">
+      </Unit>
       <Unit filename="/home/developer/distributed/day3/raytracing-client/zhelpers.hpp">
       </Unit>
       <Unit filename="/home/developer/distributed/day3/raytracing-client/CMakeLists.txt">

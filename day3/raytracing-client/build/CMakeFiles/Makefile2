@@ -90,7 +90,7 @@ clean: CMakeFiles/libs.dir/clean
 CMakeFiles/raytracing-client.dir/all:
 	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/depend
 	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/developer/distributed/day3/raytracing-client/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/developer/distributed/day3/raytracing-client/build/CMakeFiles  1 2
 	@echo "Built target raytracing-client"
 .PHONY : CMakeFiles/raytracing-client.dir/all
 
@@ -100,7 +100,7 @@ all: CMakeFiles/raytracing-client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/raytracing-client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/distributed/day3/raytracing-client/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/distributed/day3/raytracing-client/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/raytracing-client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/distributed/day3/raytracing-client/build/CMakeFiles 0
 .PHONY : CMakeFiles/raytracing-client.dir/rule

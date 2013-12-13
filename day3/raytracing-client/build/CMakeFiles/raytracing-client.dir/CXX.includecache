@@ -11,10 +11,14 @@ zmq.h
 -
 zhelpers.hpp
 /home/developer/distributed/day3/raytracing-client/zhelpers.hpp
+smallpt_lib.hpp
+/home/developer/distributed/day3/raytracing-client/smallpt_lib.hpp
 iostream
 -
 string
 -
+
+/home/developer/distributed/day3/raytracing-client/smallpt_lib.hpp
 
 /home/developer/distributed/day3/raytracing-client/zhelpers.hpp
 zmq.hpp

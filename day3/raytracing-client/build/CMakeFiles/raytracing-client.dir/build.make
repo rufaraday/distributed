@@ -49,9 +49,32 @@ include CMakeFiles/raytracing-client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/raytracing-client.dir/flags.make
 
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o: CMakeFiles/raytracing-client.dir/flags.make
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o: ../smallpt_lib.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/developer/distributed/day3/raytracing-client/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o -c /home/developer/distributed/day3/raytracing-client/smallpt_lib.cpp
+
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/developer/distributed/day3/raytracing-client/smallpt_lib.cpp > CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.i
+
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/developer/distributed/day3/raytracing-client/smallpt_lib.cpp -o CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.s
+
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.requires:
+.PHONY : CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.requires
+
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.provides: CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.requires
+	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.provides.build
+.PHONY : CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.provides
+
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.provides.build: CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o
+
 CMakeFiles/raytracing-client.dir/main.cpp.o: CMakeFiles/raytracing-client.dir/flags.make
 CMakeFiles/raytracing-client.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/developer/distributed/day3/raytracing-client/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/developer/distributed/day3/raytracing-client/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/raytracing-client.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/raytracing-client.dir/main.cpp.o -c /home/developer/distributed/day3/raytracing-client/main.cpp
 
@@ -74,11 +97,13 @@ CMakeFiles/raytracing-client.dir/main.cpp.o.provides.build: CMakeFiles/raytracin
 
 # Object files for target raytracing-client
 raytracing__client_OBJECTS = \
+"CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o" \
 "CMakeFiles/raytracing-client.dir/main.cpp.o"
 
 # External object files for target raytracing-client
 raytracing__client_EXTERNAL_OBJECTS =
 
+raytracing-client: CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o
 raytracing-client: CMakeFiles/raytracing-client.dir/main.cpp.o
 raytracing-client: CMakeFiles/raytracing-client.dir/build.make
 raytracing-client: CMakeFiles/raytracing-client.dir/link.txt
@@ -89,6 +114,7 @@ raytracing-client: CMakeFiles/raytracing-client.dir/link.txt
 CMakeFiles/raytracing-client.dir/build: raytracing-client
 .PHONY : CMakeFiles/raytracing-client.dir/build
 
+CMakeFiles/raytracing-client.dir/requires: CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o.requires
 CMakeFiles/raytracing-client.dir/requires: CMakeFiles/raytracing-client.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/raytracing-client.dir/requires
 

@@ -4,8 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/developer/distributed/day3/raytracing-client/main.cpp" "/home/developer/distributed/day3/raytracing-client/build/CMakeFiles/raytracing-client.dir/main.cpp.o"
-  "/home/developer/distributed/day3/raytracing-client/smallpt_lib.cpp" "/home/developer/distributed/day3/raytracing-client/build/CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o"
+  "/home/developer/distributed/day3/worker/smallpt_lib.cpp" "/home/developer/distributed/day3/worker/build/CMakeFiles/worker.dir/smallpt_lib.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

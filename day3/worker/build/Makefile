@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/developer/distributed/day3/raytracing-client
+CMAKE_SOURCE_DIR = /home/developer/distributed/day3/worker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/developer/distributed/day3/raytracing-client/build
+CMAKE_BINARY_DIR = /home/developer/distributed/day3/worker/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/distributed/day3/raytracing-client/build/CMakeFiles /home/developer/distributed/day3/raytracing-client/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/distributed/day3/worker/build/CMakeFiles /home/developer/distributed/day3/worker/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/distributed/day3/raytracing-client/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/distributed/day3/worker/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,61 +99,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named libs
+# Target rules for targets named worker
 
 # Build rule for target.
-libs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libs
-.PHONY : libs
+worker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 worker
+.PHONY : worker
 
 # fast build rule for target.
-libs/fast:
-	$(MAKE) -f CMakeFiles/libs.dir/build.make CMakeFiles/libs.dir/build
-.PHONY : libs/fast
-
-#=============================================================================
-# Target rules for targets named raytracing-client
-
-# Build rule for target.
-raytracing-client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 raytracing-client
-.PHONY : raytracing-client
-
-# fast build rule for target.
-raytracing-client/fast:
-	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/build
-.PHONY : raytracing-client/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/main.cpp.s
-.PHONY : main.cpp.s
+worker/fast:
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/build
+.PHONY : worker/fast
 
 smallpt_lib.o: smallpt_lib.cpp.o
 .PHONY : smallpt_lib.o
 
 # target to build an object file
 smallpt_lib.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/smallpt_lib.cpp.o
 .PHONY : smallpt_lib.cpp.o
 
 smallpt_lib.i: smallpt_lib.cpp.i
@@ -161,7 +124,7 @@ smallpt_lib.i: smallpt_lib.cpp.i
 
 # target to preprocess a source file
 smallpt_lib.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.i
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/smallpt_lib.cpp.i
 .PHONY : smallpt_lib.cpp.i
 
 smallpt_lib.s: smallpt_lib.cpp.s
@@ -169,7 +132,7 @@ smallpt_lib.s: smallpt_lib.cpp.s
 
 # target to generate assembly for a file
 smallpt_lib.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracing-client.dir/build.make CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.s
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/smallpt_lib.cpp.s
 .PHONY : smallpt_lib.cpp.s
 
 # Help Target
@@ -179,12 +142,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... libs"
-	@echo "... raytracing-client"
 	@echo "... rebuild_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... worker"
 	@echo "... smallpt_lib.o"
 	@echo "... smallpt_lib.i"
 	@echo "... smallpt_lib.s"

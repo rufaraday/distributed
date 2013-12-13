@@ -3,4 +3,7 @@
 
 CMakeFiles/raytracing-client.dir/main.cpp.o
  /home/developer/distributed/day3/raytracing-client/main.cpp
+ /home/developer/distributed/day3/raytracing-client/smallpt_lib.hpp
  /home/developer/distributed/day3/raytracing-client/zhelpers.hpp
+CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o
+ /home/developer/distributed/day3/raytracing-client/smallpt_lib.cpp
