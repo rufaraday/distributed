@@ -1,0 +1,128 @@
+xubuntu 13.10
+Qt Creator 2.8.1
+gcc (Ubuntu/Linaro 4.8.1-10ubuntu9) 4.8.1
+
+$ ls -l ~/libs/
+total 28
+drwxr-xr-x 10 developer developer 4096 paź 23 13:48 boost_1_55_0b1
+drwxr-xr-x  3 developer developer 4096 gru  7 22:28 cppzmq
+drwxr-xr-x 12 developer developer 4096 gru  7 22:41 poco-1.4.6p2
+drwxr-xr-x 14 developer developer 4096 gru 12 10:20 rabbitmq-c
+drwxr-xr-x  6 developer developer 4096 gru 12 10:21 rabbitmq-c-build
+drwxr-xr-x  8 developer developer 4096 gru  7 22:28 SimpleAmqpClient
+drwxr-xr-x  3 developer developer 4096 gru 12 10:23 SimpleAmqpClient-build
+
+$ ls -l /usr/local/lib/
+total 61716
+drwxr-xr-x 3 root root     4096 gru  7 22:36 i386-linux-gnu
+-rw-r--r-- 1 root root     1662 paź 23 14:46 libboost_atomic.a
+lrwxrwxrwx 1 root root       25 paź 23 14:46 libboost_atomic.so -> libboost_atomic.so.1.55.0
+-rwxr-xr-x 1 root root     6845 paź 23 14:46 libboost_atomic.so.1.55.0
+-rw-r--r-- 1 root root    86034 paź 23 14:46 libboost_chrono.a
+lrwxrwxrwx 1 root root       25 paź 23 14:46 libboost_chrono.so -> libboost_chrono.so.1.55.0
+-rwxr-xr-x 1 root root    34837 paź 23 14:46 libboost_chrono.so.1.55.0
+-rw-r--r-- 1 root root     1740 paź 23 14:46 libboost_context.a
+lrwxrwxrwx 1 root root       26 paź 23 14:46 libboost_context.so -> libboost_context.so.1.55.0
+-rwxr-xr-x 1 root root     6904 paź 23 14:46 libboost_context.so.1.55.0
+-rw-r--r-- 1 root root    22530 paź 23 14:46 libboost_coroutine.a
+lrwxrwxrwx 1 root root       28 paź 23 14:46 libboost_coroutine.so -> libboost_coroutine.so.1.55.0
+-rwxr-xr-x 1 root root    25242 paź 23 14:46 libboost_coroutine.so.1.55.0
+-rw-r--r-- 1 root root   114270 paź 23 14:46 libboost_date_time.a
+lrwxrwxrwx 1 root root       28 paź 23 14:46 libboost_date_time.so -> libboost_date_time.so.1.55.0
+-rwxr-xr-x 1 root root    82732 paź 23 14:46 libboost_date_time.so.1.55.0
+-rw-r--r-- 1 root root     1294 paź 23 14:46 libboost_exception.a
+-rw-r--r-- 1 root root   159236 paź 23 14:46 libboost_filesystem.a
+lrwxrwxrwx 1 root root       29 paź 23 14:46 libboost_filesystem.so -> libboost_filesystem.so.1.55.0
+-rwxr-xr-x 1 root root   108859 paź 23 14:46 libboost_filesystem.so.1.55.0
+-rw-r--r-- 1 root root   581304 paź 23 14:46 libboost_graph.a
+lrwxrwxrwx 1 root root       24 paź 23 14:46 libboost_graph.so -> libboost_graph.so.1.55.0
+-rwxr-xr-x 1 root root   404160 paź 23 14:46 libboost_graph.so.1.55.0
+-rw-r--r-- 1 root root  1324300 paź 23 14:46 libboost_locale.a
+lrwxrwxrwx 1 root root       25 paź 23 14:46 libboost_locale.so -> libboost_locale.so.1.55.0
+-rwxr-xr-x 1 root root   747139 paź 23 14:46 libboost_locale.so.1.55.0
+-rw-r--r-- 1 root root  1992032 paź 23 14:46 libboost_log.a
+-rw-r--r-- 1 root root  3871870 paź 23 14:46 libboost_log_setup.a
+lrwxrwxrwx 1 root root       28 paź 23 14:46 libboost_log_setup.so -> libboost_log_setup.so.1.55.0
+-rwxr-xr-x 1 root root  2564681 paź 23 14:46 libboost_log_setup.so.1.55.0
+lrwxrwxrwx 1 root root       22 paź 23 14:46 libboost_log.so -> libboost_log.so.1.55.0
+-rwxr-xr-x 1 root root  1039550 paź 23 14:46 libboost_log.so.1.55.0
+-rw-r--r-- 1 root root   507644 paź 23 14:46 libboost_math_c99.a
+-rw-r--r-- 1 root root   423302 paź 23 14:46 libboost_math_c99f.a
+lrwxrwxrwx 1 root root       28 paź 23 14:46 libboost_math_c99f.so -> libboost_math_c99f.so.1.55.0
+-rwxr-xr-x 1 root root    77260 paź 23 14:46 libboost_math_c99f.so.1.55.0
+-rw-r--r-- 1 root root   441578 paź 23 14:46 libboost_math_c99l.a
+lrwxrwxrwx 1 root root       28 paź 23 14:46 libboost_math_c99l.so -> libboost_math_c99l.so.1.55.0
+-rwxr-xr-x 1 root root    76406 paź 23 14:46 libboost_math_c99l.so.1.55.0
+lrwxrwxrwx 1 root root       27 paź 23 14:46 libboost_math_c99.so -> libboost_math_c99.so.1.55.0
+-rwxr-xr-x 1 root root    95472 paź 23 14:46 libboost_math_c99.so.1.55.0
+-rw-r--r-- 1 root root  2949800 paź 23 14:46 libboost_math_tr1.a
+-rw-r--r-- 1 root root  2989076 paź 23 14:46 libboost_math_tr1f.a
+lrwxrwxrwx 1 root root       28 paź 23 14:46 libboost_math_tr1f.so -> libboost_math_tr1f.so.1.55.0
+-rwxr-xr-x 1 root root   422338 paź 23 14:46 libboost_math_tr1f.so.1.55.0
+-rw-r--r-- 1 root root  2978274 paź 23 14:46 libboost_math_tr1l.a
+lrwxrwxrwx 1 root root       28 paź 23 14:46 libboost_math_tr1l.so -> libboost_math_tr1l.so.1.55.0
+-rwxr-xr-x 1 root root   381163 paź 23 14:46 libboost_math_tr1l.so.1.55.0
+lrwxrwxrwx 1 root root       27 paź 23 14:46 libboost_math_tr1.so -> libboost_math_tr1.so.1.55.0
+-rwxr-xr-x 1 root root   381204 paź 23 14:46 libboost_math_tr1.so.1.55.0
+-rw-r--r-- 1 root root    86600 paź 23 14:46 libboost_prg_exec_monitor.a
+lrwxrwxrwx 1 root root       35 paź 23 14:46 libboost_prg_exec_monitor.so -> libboost_prg_exec_monitor.so.1.55.0
+-rwxr-xr-x 1 root root    74949 paź 23 14:46 libboost_prg_exec_monitor.so.1.55.0
+-rw-r--r-- 1 root root   975138 paź 23 14:46 libboost_program_options.a
+lrwxrwxrwx 1 root root       34 paź 23 14:46 libboost_program_options.so -> libboost_program_options.so.1.55.0
+-rwxr-xr-x 1 root root   532837 paź 23 14:46 libboost_program_options.so.1.55.0
+-rw-r--r-- 1 root root     7014 paź 23 14:46 libboost_random.a
+lrwxrwxrwx 1 root root       25 paź 23 14:46 libboost_random.so -> libboost_random.so.1.55.0
+-rwxr-xr-x 1 root root    12967 paź 23 14:46 libboost_random.so.1.55.0
+-rw-r--r-- 1 root root  1889012 paź 23 14:46 libboost_regex.a
+lrwxrwxrwx 1 root root       24 paź 23 14:46 libboost_regex.so -> libboost_regex.so.1.55.0
+-rwxr-xr-x 1 root root  1081951 paź 23 14:46 libboost_regex.so.1.55.0
+-rw-r--r-- 1 root root  1037830 paź 23 14:46 libboost_serialization.a
+lrwxrwxrwx 1 root root       32 paź 23 14:46 libboost_serialization.so -> libboost_serialization.so.1.55.0
+-rwxr-xr-x 1 root root   611557 paź 23 14:46 libboost_serialization.so.1.55.0
+-rw-r--r-- 1 root root   160468 paź 23 14:46 libboost_signals.a
+lrwxrwxrwx 1 root root       26 paź 23 14:46 libboost_signals.so -> libboost_signals.so.1.55.0
+-rwxr-xr-x 1 root root   110881 paź 23 14:46 libboost_signals.so.1.55.0
+-rw-r--r-- 1 root root    27890 paź 23 14:46 libboost_system.a
+lrwxrwxrwx 1 root root       25 paź 23 14:46 libboost_system.so -> libboost_system.so.1.55.0
+-rwxr-xr-x 1 root root    20608 paź 23 14:46 libboost_system.so.1.55.0
+-rw-r--r-- 1 root root  1335796 paź 23 14:46 libboost_test_exec_monitor.a
+-rw-r--r-- 1 root root   153222 paź 23 14:46 libboost_thread.a
+lrwxrwxrwx 1 root root       25 paź 23 14:46 libboost_thread.so -> libboost_thread.so.1.55.0
+-rwxr-xr-x 1 root root   114659 paź 23 14:46 libboost_thread.so.1.55.0
+-rw-r--r-- 1 root root    18680 paź 23 14:46 libboost_timer.a
+lrwxrwxrwx 1 root root       24 paź 23 14:46 libboost_timer.so -> libboost_timer.so.1.55.0
+-rwxr-xr-x 1 root root    23146 paź 23 14:46 libboost_timer.so.1.55.0
+-rw-r--r-- 1 root root  1498072 paź 23 14:46 libboost_unit_test_framework.a
+lrwxrwxrwx 1 root root       38 paź 23 14:46 libboost_unit_test_framework.so -> libboost_unit_test_framework.so.1.55.0
+-rwxr-xr-x 1 root root   832636 paź 23 14:46 libboost_unit_test_framework.so.1.55.0
+-rw-r--r-- 1 root root  3324120 paź 23 14:46 libboost_wave.a
+lrwxrwxrwx 1 root root       23 paź 23 14:46 libboost_wave.so -> libboost_wave.so.1.55.0
+-rwxr-xr-x 1 root root  1796863 paź 23 14:46 libboost_wave.so.1.55.0
+-rw-r--r-- 1 root root   719940 paź 23 14:46 libboost_wserialization.a
+lrwxrwxrwx 1 root root       33 paź 23 14:46 libboost_wserialization.so -> libboost_wserialization.so.1.55.0
+-rwxr-xr-x 1 root root   447096 paź 23 14:46 libboost_wserialization.so.1.55.0
+lrwxrwxrwx 1 root root       24 gru  7 22:49 libPocoFoundationd.so -> libPocoFoundationd.so.16
+-rwxr-xr-x 1 root root  7491147 gru  7 22:49 libPocoFoundationd.so.16
+lrwxrwxrwx 1 root root       23 gru  7 22:49 libPocoFoundation.so -> libPocoFoundation.so.16
+-rwxr-xr-x 1 root root  1457552 gru  7 22:49 libPocoFoundation.so.16
+lrwxrwxrwx 1 root root       17 gru  7 22:49 libPocoNetd.so -> libPocoNetd.so.16
+-rwxr-xr-x 1 root root  5057472 gru  7 22:49 libPocoNetd.so.16
+lrwxrwxrwx 1 root root       16 gru  7 22:49 libPocoNet.so -> libPocoNet.so.16
+-rwxr-xr-x 1 root root   878840 gru  7 22:49 libPocoNet.so.16
+lrwxrwxrwx 1 root root       18 gru  7 22:49 libPocoUtild.so -> libPocoUtild.so.16
+-rwxr-xr-x 1 root root  2412436 gru  7 22:49 libPocoUtild.so.16
+lrwxrwxrwx 1 root root       17 gru  7 22:49 libPocoUtil.so -> libPocoUtil.so.16
+-rwxr-xr-x 1 root root   302456 gru  7 22:49 libPocoUtil.so.16
+lrwxrwxrwx 1 root root       17 gru  7 22:49 libPocoXMLd.so -> libPocoXMLd.so.16
+-rwxr-xr-x 1 root root  2697512 gru  7 22:49 libPocoXMLd.so.16
+lrwxrwxrwx 1 root root       16 gru  7 22:49 libPocoXML.so -> libPocoXML.so.16
+-rwxr-xr-x 1 root root   544388 gru  7 22:49 libPocoXML.so.16
+lrwxrwxrwx 1 root root       16 gru 12 10:21 librabbitmq.so -> librabbitmq.so.1
+lrwxrwxrwx 1 root root       20 gru 12 10:21 librabbitmq.so.1 -> librabbitmq.so.1.1.1
+-rw-r--r-- 1 root root    93126 gru 12 10:21 librabbitmq.so.1.1.1
+lrwxrwxrwx 1 root root       24 gru  7 22:36 libSimpleAmqpClient.so -> libSimpleAmqpClient.so.2
+lrwxrwxrwx 1 root root       28 gru  7 22:36 libSimpleAmqpClient.so.2 -> libSimpleAmqpClient.so.2.3.0
+-rw-r--r-- 1 root root   305305 gru 12 10:23 libSimpleAmqpClient.so.2.3.0
+drwxr-xr-x 2 root root     4096 gru 12 10:23 pkgconfig
+drwxrwsr-x 4 root staff    4096 paź 16 23:19 python2.7
+drwxrwsr-x 3 root staff    4096 paź 16 23:15 python3.3
