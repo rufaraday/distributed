@@ -1,2 +1,0 @@
-/home/developer/distributed/day3/direct/build/CMakeFiles/direct.dir
-/home/developer/distributed/day3/direct/build/CMakeFiles/libs.dir

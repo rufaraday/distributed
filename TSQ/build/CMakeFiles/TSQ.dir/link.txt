@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/TSQ.dir/gmock-gtest-all.cc.o CMakeFiles/TSQ.dir/main.cpp.o  -o TSQ -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system 

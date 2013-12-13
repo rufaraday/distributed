@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+# CMake .user files
+*.user
+
+# Build folder
+*/build/

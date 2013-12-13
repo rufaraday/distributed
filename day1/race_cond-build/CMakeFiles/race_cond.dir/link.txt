@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/race_cond.dir/main.cpp.o  -o race_cond -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lboost_filesystem 

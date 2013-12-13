@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/hello_thread.dir/main.cpp.o  -o hello_thread -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lboost_filesystem 

@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/mapreduce.dir/mapreduce.cpp.o  -o mapreduce -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lboost_filesystem 

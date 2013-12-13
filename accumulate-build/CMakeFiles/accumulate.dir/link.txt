@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/accumulate.dir/main.cpp.o  -o accumulate -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system 

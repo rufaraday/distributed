@@ -1,2 +1,0 @@
-/home/developer/day1/race_cond-build/CMakeFiles/libs.dir
-/home/developer/day1/race_cond-build/CMakeFiles/race_cond.dir

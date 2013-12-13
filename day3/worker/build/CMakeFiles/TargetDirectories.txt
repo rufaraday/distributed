@@ -1,1 +1,0 @@
-/home/developer/distributed/day3/worker/build/CMakeFiles/worker.dir

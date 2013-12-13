@@ -1,2 +1,0 @@
-/home/developer/distributed/day3/raytracing-client/build/CMakeFiles/libs.dir
-/home/developer/distributed/day3/raytracing-client/build/CMakeFiles/raytracing-client.dir

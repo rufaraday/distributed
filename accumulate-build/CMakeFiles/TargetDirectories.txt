@@ -1,2 +1,0 @@
-/home/developer/distributed/accumulate-build/CMakeFiles/accumulate.dir
-/home/developer/distributed/accumulate-build/CMakeFiles/libs.dir

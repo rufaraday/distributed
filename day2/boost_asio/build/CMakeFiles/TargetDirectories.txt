@@ -1,2 +1,0 @@
-/home/developer/day2/boost_asio/build/CMakeFiles/boost_asio.dir
-/home/developer/day2/boost_asio/build/CMakeFiles/libs.dir

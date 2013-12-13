@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/raytracing-client.dir/smallpt_lib.cpp.o CMakeFiles/raytracing-client.dir/main.cpp.o  -o raytracing-client -rdynamic -lstdc++ -lpthread -lboost_thread -lboost_system -lzmq 

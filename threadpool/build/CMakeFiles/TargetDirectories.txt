@@ -1,2 +1,0 @@
-/home/developer/distributed/threadpool/build/CMakeFiles/libs.dir
-/home/developer/distributed/threadpool/build/CMakeFiles/threadpool.dir

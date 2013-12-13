@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/Thread01.dir/main.cpp.o  -o Thread01 -rdynamic -lpthread -lstdc++ -lboost_thread -lboost_system -lPocoFoundation -lPocoNet -lPocoUtil 

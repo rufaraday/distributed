@@ -1,2 +1,0 @@
-/home/developer/distributed/mapreduce/build/CMakeFiles/libs.dir
-/home/developer/distributed/mapreduce/build/CMakeFiles/mapreduce.dir
